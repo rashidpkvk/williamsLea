@@ -1,0 +1,15 @@
+gazette_feed.gazette_feed_content:
+  path: '/gazette-feed'
+  defaults:
+    _controller: '\Drupal\gazette_feed\Controller\GazetteFeedController::content'
+    _title: 'Gazette Feed'
+  requirements:
+    _permission: 'access content'
+
+gazette_feed.gazette_feed_json:
+  path: '/gazette-feed/json'
+  defaults:
+    _controller: '\Drupal\gazette_feed\Controller\GazetteFeedController::contentJson'
+    _title: 'Gazette Feed JSON'
+  requirements:
+    _permission: 'access content'

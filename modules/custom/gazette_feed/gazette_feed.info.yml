@@ -1,0 +1,8 @@
+name: 'Gazette Feed'
+type: module
+description: 'Custom module for managing gazette feeds.'
+core_version_requirement: ^10.2 || ^11
+package: Custom
+version: '1.0'
+dependencies:
+  - drupal:views
